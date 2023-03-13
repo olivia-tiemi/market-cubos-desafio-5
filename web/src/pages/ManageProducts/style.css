@@ -1,0 +1,44 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.manage-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-container {
+  background-color: #f4f4f4;
+  padding: 32px 7.5%;
+  min-height: 89%;
+}
+
+.content-container {
+  background-color: #fcfcfc;
+  padding: 32px 1.7%;
+}
+
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 760px) {
+  .options-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-container img {
+  height: 44px;
+}

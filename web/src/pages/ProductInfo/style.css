@@ -1,0 +1,94 @@
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-container a {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #999999;
+}
+
+.product-photo {
+  width: 464px;
+  max-width: 90%;
+}
+
+.product-info {
+  display: flex;
+  gap: 52px;
+}
+
+@media (max-width: 1080px) {
+  .product-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f4f4f4;
+  height: 38px;
+  width: 149px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.quantity button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b7005c;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  width: 50px;
+  height: 38px;
+}
+
+.input-cep {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #f4f4f4;
+  height: 41.35px;
+  width: 167px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.input-cep::placeholder {
+  color: #bababa;
+}
+
+.description-container {
+  background-color: #fcfcfc;
+  padding: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}

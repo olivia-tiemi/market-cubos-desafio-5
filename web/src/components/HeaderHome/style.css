@@ -1,0 +1,63 @@
+.nav-links {
+  display: flex;
+  gap: 26.67px;
+}
+
+.icon-link {
+  display: flex;
+  gap: 10.67px;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.MuiSvgIcon-root {
+  font-size: 2.67rem !important;
+}
+
+/* .css-1jgtvd5 { */
+.css-kp9ftd-MuiIcon-root {
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+/* .css-1x7skt0 { */
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff !important;
+  min-height: 122px !important;
+}
+
+/* .css-1ekb41w { */
+.css-19r6kue-MuiContainer-root {
+  max-width: 100% !important;
+  padding: 20px 7.5% 0 7.5% !important;
+}
+
+/* .css-5u89rk { */
+.css-ytpci2-MuiGrid-root {
+  width: 55.5% !important;
+}
+
+@media (max-width: 1795px) {
+  /* .css-5u89rk { */
+  .css-ytpci2-MuiGrid-root {
+    width: 30% !important;
+  }
+}
+
+/* .css-gqd0kj { */
+.css-1wiv4nk-MuiButtonBase-root-MuiButton-root {
+  color: #000 !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  font-size: 2rem !important;
+  padding: 0 13.5px !important;
+}
+
+/* .css-1l1167e { */
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+  color: #000 !important;
+}

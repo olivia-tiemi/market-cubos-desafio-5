@@ -1,0 +1,27 @@
+.search-input {
+  width: 340px;
+  max-width: 80%;
+  height: 44px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 12px 16px;
+  background-color: #f8f8f8;
+  border: none;
+}
+
+.search-input::placeholder {
+  color: #858585;
+}
+
+/* .MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-page.MuiPaginationItem-sizeMedium.MuiPaginationItem-circular.css-1ku2t { */
+.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-page.MuiPaginationItem-sizeMedium.MuiPaginationItem-circular.css-14udraq-MuiButtonBase-root-MuiPaginationItem-root {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 2rem;
+}
+
+/* .css-1yu63fk {*/
+.css-1bkzk7g-MuiGrid-root {
+  width: 100vw !important;
+}

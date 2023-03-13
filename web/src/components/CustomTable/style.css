@@ -1,0 +1,18 @@
+.MuiTablePagination-root,
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-selectRoot,
+.MuiTablePagination-menuItem,
+.MuiTablePagination-displayedRows {
+  font-size: 1.4rem !important;
+}
+
+.MuiTableRow-root {
+  background-color: #f5f5f5;
+  margin: 16px;
+}
+
+.empty-stock {
+  margin-bottom: 32px;
+  max-width: 612px;
+  transform: translateX(80%);
+}
